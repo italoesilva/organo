@@ -17,9 +17,12 @@ const Formulario = () => {
         'Inovação e Gestão'
     ]
 
+        const aoSalvar = () => {
+            console.log('Form foi submetido')
+        }
     return (
         <section className="formulario">
-            <form>
+            <form onSubmit={aoSalvar}>
                 <h2>Preencha os dados para criar o card do colaborador</h2>
                 <CampoTexto label="Nome" placeholder="Digite seu nome" />
                 <CampoTexto label="Cargo" placeholder="Digite seu Cargo" />
