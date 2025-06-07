@@ -12,7 +12,7 @@ const placeholderModificada = `${props.placeholder}...`
                 {props.label}
                 </label>
 
-            <input placeholder={`${props.placeholder}...`}></input>
+            <input required={props.obrigatorio} placeholder={`${props.placeholder}...`}></input>
 
         </div>
 
