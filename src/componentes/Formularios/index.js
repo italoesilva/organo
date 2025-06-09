@@ -5,15 +5,22 @@ import ListaSuspensa from '../ListaSuspensa'
 import './Formulario.css'
 
 
-const Formulario = () => {
+const Formulario = (props) => {
 
 
-    const times =  [];
+    const times =  [
+    'Programação',
+    'Front-End',
+    'Back-End',
+    'Design',
+    'DevOps',
+    'Data Science'
+    ];
 
     const [nome, setNome] = useState('')
     const [cargo, setCargo] = useState('')
     const [imagem, setImagem] = useState('')
-    const [time, setTime] =useState('')
+    const [time, setTime] = useState('')
 
         const aoSalvar = (evento) => {
             evento.preventDefault()
