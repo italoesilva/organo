@@ -2,7 +2,7 @@ import './Time.css'
 
 const Time = (props) => {
     return(
-        <section>
+        <section className='Time'>
             <h3>{props.nome}</h3>
         </section>
     )

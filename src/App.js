@@ -25,9 +25,6 @@ function App() {
       <Time nome="Programação"/>
       <Time nome="Frontend" />
       <Time nome="Data Science" />
-
-  
-
     </div>
   );
 }
