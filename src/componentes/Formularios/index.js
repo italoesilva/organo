@@ -11,10 +11,10 @@ const Formulario = (props) => {
     const times =  [
     'Programação',
     'Front-End',
-    'Back-End',
-    'Design',
+    'Data-Science',
     'DevOps',
-    'Data Science'
+    'UK e Design',
+    'Inovação e Gestão'
     ];
 
     const [nome, setNome] = useState('')
